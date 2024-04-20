@@ -1,0 +1,98 @@
+div.amazing-to-read{
+    width: 78%;
+    height: 344.62px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: chartreuse; */
+    margin-top: 16px;
+}
+div.amazing-to-read>div.amazing-to-read-title{
+    width: 100%;
+    height: 65.59px;
+    padding: 16px 20px 16px 20px;
+    /* background-color: rgb(208, 228, 245); */
+    position: relative;
+}
+div.amazing-to-read>div.amazing-to-read-title>div{
+    display: inline-block;
+    vertical-align: middle;
+}
+div.amazing-to-read>div.amazing-to-read-title>div.title{
+    width: fit-content;
+    height: 33.6px;
+    line-height: 33.6px;
+    font-family:  IranYekanbold;
+    font-size: 16px;
+    font-weight: 700;
+}
+div.amazing-to-read>div.amazing-to-read-title>div.see-more{
+    height: 33.6px;
+    width: fit-content;
+    line-height: 33.6px;
+    font-family:  IranYekanbold;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    left: 20px;
+    
+    
+}
+div.amazing-to-read>div.amazing-to-read-title>div.see-more>span{
+    display: inline-block;
+    /* color: rgb(25, 191, 211); */
+    cursor: pointer;
+    
+}
+div.amazing-to-read>div.amazing-to-read-title>div.see-more>span:last-of-type{
+    font-size: 10.5px;
+    font-weight: 700;
+    margin-right: 3px;
+    
+}
+div.amazing-to-read>div.amazing-to-read-content{
+    width: 100%;
+    height: 279.02px;
+    
+}
+div.amazing-to-read>div.amazing-to-read-content>a{
+    display: inline-block;
+    width: 325px;
+    height: 279.02px;
+    vertical-align: middle;
+    /* background-color: rgb(204, 204, 246); */
+    margin-left: 3.4px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 1px solid rgb(224, 224, 226);
+}
+div.amazing-to-read>div.amazing-to-read-content>a:last-of-type{
+    margin-left: 0px;
+}
+div.amazing-to-read>div.amazing-to-read-content>a>div.image-container{
+    width: 323.67px;
+    height: 201.63px;
+    border-radius: 8px;
+    border-radius: 8px;
+
+
+}
+div.amazing-to-read>div.amazing-to-read-content>a>div.image-container>img{
+    width: 323.67px;
+    height: 201.63px;
+    object-fit: cover;
+    border-radius: 8px;
+
+}
+div.amazing-to-read>div.amazing-to-read-content>a>div.text-container{
+    width: 323.67px;
+    height: 26.03px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    padding: 0 16px 0 16px;
+    font-family:  IranYekanRegular;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(12, 12, 12);
+    line-height: 26.04px;
+}

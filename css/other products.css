@@ -1,0 +1,101 @@
+div.products-category{
+    width: 78%;
+    height: 418px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: burlywood; */
+    margin-top: 16px;
+    border-radius: 16px;
+    border: 1px solid rgb(224, 224, 226);
+}
+div.products-category>div{
+    width: 25%;
+    height: inherit;
+    display: inline-block;
+    margin-right: -3px;
+    padding: 8px 20px 8px 20px;
+    /* background-color: khaki; */
+    vertical-align: middle;
+    border-right: 1px solid rgb(224, 224, 226);
+
+}
+div.products-category>div:last-of-type{
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+div.products-category>div:first-of-type{
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+}
+/* title css */
+    div.products-category>div>div.title{
+        width: 100%;
+        height: 58px;
+        /* background-color: darksalmon; */
+        margin-bottom: 8px;
+        margin-top: 10px;
+    }
+    div.products-category>div>div.title>div:first-of-type{
+        font-family: IranYekanbold;
+        font-size: 16px;
+        font-weight: 700;
+        height: 34px;
+
+
+    }
+    div.products-category>div>div.title>div:last-of-type{
+        font-family: IranYekanRegular;
+        font-size: 11px;
+        font-weight: 400;
+        color: rgb(129, 133, 139);
+    }
+/* End title css */
+/* products-img */
+    div.products-category>div>div.products-img{
+        height: 293px;
+        width: 100%;
+        /* background-color: grey; */
+    }
+    div.products-category>div>div.products-img>div{
+        height: 146px;
+        width: 146px;
+        /* background-color: ivory; */
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: -3.8px;
+        padding: 8px;
+
+    }
+    div.products-category>div>div.products-img>div>img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+/* End products-img */
+/* More button */
+    div.products-category>div>div.see-more{
+        height: 26px;
+        width: 100%;
+        margin-top: 4px;
+        margin-bottom: 12px;
+        font-family:  IranYekanbold;
+        font-size: 12px;
+        font-weight: 700;
+        text-align: center;
+        
+        
+    }
+    div.products-category>div>div.see-more>span{
+        display: inline-block;
+        color: rgb(25, 191, 211);
+        cursor: pointer;
+
+    }
+    div.products-category>div>div.see-more>span:last-of-type{
+        font-size: 10.5px;
+        font-weight: 700;
+        margin-right: 3px;
+
+    }
+/* End More button */

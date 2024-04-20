@@ -1,0 +1,327 @@
+/* header */
+    div.header{
+        width: 100%;
+        height: 168px;
+        position: relative;
+    }
+    header{
+        width: inherit;
+        height: inherit;
+        background-color: rgb(255, 255, 255);
+        border-bottom: 2px solid lightgrey ;
+    }
+    /* top header */
+        div.header-top{
+            width: inherit;
+            height: 128px;
+            background-color: #FFFFFF;
+            position: fixed;
+            /* border-bottom: 2px solid lightgrey ; */
+            z-index: 999999;
+        }
+            /* top gif  */
+                div.header-top-gif{
+                    width: inherit;
+                    height: 60px;
+
+                }
+                div.header-top-gif>a{
+                    display: block;
+                    width: inherit;
+                    height: inherit;
+                }
+                div.header-top-gif>a>img{
+                    display: block;
+                    width: inherit;
+                    height: inherit;
+                    object-fit: cover;
+                }
+            /* end top gif  */
+            /* bottom top header */
+                div.header-top-bottom{
+                    width: inherit;
+                    height: 68px;
+                    /* background-color: chocolate; */
+                    text-align: center;
+                }
+                /* icon */
+                    div.header-top-bottom>div.Digi-icon{
+                        width: 10%;
+                        height: inherit;
+                        display: inline-block;
+                        /* background-color: grey; */
+                        vertical-align: middle;
+                        margin: 0 -2px ;
+                       padding-top: 19px;
+                    }
+                /* end icon */
+                /* search bar */
+                    div.header-top-bottom>div.search{
+                        width: 80%;
+                        height: inherit;
+                        display: inline-block;
+                        /* background-color: rgb(44, 44, 44); */
+                        vertical-align: middle;
+                        margin: 0 -1px ; 
+                        padding-right: 2px;  
+                    }
+                    div.header-top-bottom>div.search>form{
+                        width: 600px;
+                        height: 44px;
+                        margin-top: 12px;
+                        background-color: #F0F0F1;
+                        border-radius: 8px;
+                        text-align: end;
+                    }
+                    div.header-top-bottom>div.search>form>input[type=search]{
+                        width: 566px;
+                        height: inherit;
+                        outline: unset;
+                        border: unset;
+                        background-color: #F0F0F1;
+                        border-radius: 8px;
+                        padding-right: 16px;
+                    }
+                    div.header-top-bottom>div.search>form>input[type=search]::placeholder{
+                        font-family: IranYekanMedium;
+                        font-weight: 400;
+                        font-size: 12px;
+                    }
+                    div.header-top-bottom>div.search>form>span{
+                        display: inline-block;
+                        width: 24px;
+                        height: 24px; 
+                        margin-right: 4px;
+                    }
+                    div.header-top-bottom>div.search>form>span>i{
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 24px;
+                    }
+                /* end search bar */
+                /* left part */
+                    div.header-top-bottom>div.login{
+                        width: 10%;
+                        height: inherit;                    /*68px*/
+                        display: inline-block;
+                        /* background-color: rgb(131, 82, 82); */
+                        vertical-align: middle;
+                        margin: 0 -2px ;
+                        text-align: start;
+                    }
+                    /* user profile */
+                        div.header-top-bottom>div.login>div.menu-buttons{
+                            display: inline-block;
+                            width: 60px;
+                            height: 40px;
+                            margin-top: 14px;
+                            margin-right: 20px;
+                            
+                            /* background-color: aqua; */
+                            line-height: 40px;
+                            border-radius: 8px;
+                        }
+                        div.header-top-bottom>div.login>div.menu-buttons>span:nth-of-type(1)>i{
+                            font-size: 20px;
+                            margin-right: 7px;
+                        }
+                        div.header-top-bottom>div.login>div.menu-buttons>span:nth-of-type(2)>i{
+                            font-size: 13px;
+                            vertical-align: text-top;
+                            margin-right: 5px;
+                        }
+                    /* end user profile */
+                    /* seperator line */
+                        div.header-top-bottom>div.login>div.Pipe{
+                            display: inline-block;
+                            vertical-align: middle;
+                            /* background-color: blueviolet; */
+                        }
+                        div.header-top-bottom>div.login>div.Pipe>span>i{
+                            display: inline-block;
+                            font-size: 24px;
+                            margin-right: 4px;
+                        }
+                    /* end seperator line */
+                    /* shoping cart */
+                        div.header-top-bottom>div.login>div.shoping-cart{
+                            display: inline-block;
+                            margin-right: 15px;
+                        }
+                        div.header-top-bottom>div.login>div.shoping-cart>span>i{
+                            font-size: 17px;
+                            
+                        }
+                    /* end shoping cart */
+                /* end left part */
+            /* end bottom top header */
+    /* end top header */
+    /* nav */
+        /* nav bar */
+            div.nav{
+                height: 40px;
+                width: calc(100% - 22.66px);
+                margin: 0px 11.33px;                
+                border-bottom: 2px solid lightgrey ;
+                position: absolute;
+                bottom: 0;
+
+            }
+            div.nav>nav{
+                width: inherit;
+                height: inherit;
+            }
+            div.nav>nav>div{
+                display: inline-block;
+                width: auto;
+                height: 40px;
+                padding: 0px 12px;
+                line-height: 40px;
+            }
+            div.nav>nav>div>a{
+                text-decoration: none;
+                font-family: IranYekanMedium;
+                color: rgb(98, 102, 109);
+                font-size: 12px;
+                font-weight: 100;
+                vertical-align: top;
+            }
+            div.nav>nav>div:nth-of-type(1)>a{
+                font-size: 14px;
+                font-weight: 500;
+                color: rgb(63, 64, 100);
+                vertical-align: top;
+            }
+            div.nav>nav>div:nth-of-type(1){
+                margin-right: 14px;
+            }
+            div.nav>nav>div:nth-of-type(1)>span>i{
+                font-size: 13px;
+                font-weight: 500;
+                color: rgb(63, 64, 100);
+            }
+            div.nav>nav>div>span{
+                margin-left: 6px;
+            }
+            div.nav>nav>span{
+                display: inline-block;
+                background-color: rgb(224, 224, 226);
+                margin-right: 6px;
+                vertical-align: middle;
+                height: 16px;
+                width: 1.5px;
+                border-radius: 2px;
+            }
+            div.nav>nav>span>i{
+                display: inline-block;
+                color: rgb(224, 224, 226);
+                height: 22px;
+                width: 5px;
+            }
+            div.nav>nav>div>span>i{
+                font-size: 14px;
+                font-weight: 300;
+                color: rgb(98, 102, 109);
+            }
+            div.nav>nav>div:nth-of-type(4)>span>i{
+                display: inline-block;
+                font-size: 12px;
+                font-weight: 300;
+                color: rgb(98, 102, 109);
+                margin-right: -4px;
+                vertical-align: 2px;
+            }
+            div.nav>nav>div:nth-of-type(6)>span>i{
+                display: inline-block;
+                font-size: 16px;
+                font-weight: 500;
+                color: rgb(98, 102, 109);
+            }
+            div.nav>nav>div:nth-of-type(2){
+                padding-right: 5px;
+            }
+            div.nav>nav>div:nth-of-type(6) , div.nav>nav>div:nth-of-type(7){
+                padding-left: 0px;
+            }
+            div.nav>nav>div:nth-of-type(7){
+                padding-right: 0px;
+            }
+            /* City option */
+                div.nav>nav>div.City-option{
+                    display: inline-block;
+                    width: auto;
+                    height: 40px;
+                    /* background-color: aqua; */
+                    vertical-align: middle;
+                    position: absolute;
+                    left: 6px;
+                    cursor: pointer;
+                }
+                div.nav>nav>div.City-option>div>i{
+                    color: rgb(98, 102, 109);
+                    font-size: 18px;
+                    
+                }
+                div.nav>nav>div.City-option>div:nth-of-type(1){
+                    display: inline-block;
+                    vertical-align: top;
+                }
+                div.nav>nav>div.City-option>div:nth-of-type(2){
+                    display: inline-block;
+                    font-family: IranYekanMedium;
+                    font-size: 12px;
+                    font-weight: 300;
+                    margin-right: 6px;
+                    vertical-align: text-bottom;
+                }
+            /* end City option */
+            /* nav bar animation */
+                div.nav>nav>div.animation{
+                    display: inline-block;
+                    position: absolute;
+                    width: 100px;
+                    background-color: crimson;
+                    height: 2px;
+                    bottom: 0;
+                    right: -200px;
+                    transition: 400ms;
+                }
+                div.nav>nav>div:nth-of-type(1):hover ~ div.animation{
+                    right: 23px;
+                    width: 145px;
+                }
+                div.nav>nav>div:nth-of-type(2):hover ~ div.animation{
+                    right: 160px;
+                    width: 106px;
+                }
+                div.nav>nav>div:nth-of-type(3):hover ~ div.animation{
+                    right: 285px;
+                    width: 90px;
+                }
+                div.nav>nav>div:nth-of-type(4):hover ~ div.animation{
+                    right: 385px;
+                    width: 90px;
+                }
+                div.nav>nav>div:nth-of-type(5):hover ~ div.animation{
+                    right: 490px;
+                    width: 100px;
+                }
+                div.nav>nav>div:nth-of-type(6):hover ~ div.animation{
+                    right: 615px;
+                    width: 140px;
+                }
+                div.nav>nav>div:nth-of-type(7):hover ~ div.animation{
+                    right: 760px;
+                    width: 80px;
+                }
+                div.nav>nav>div:nth-of-type(8):hover ~ div.animation{
+                    right: 855px;
+                    width: 120px;
+                }
+            /* end nav bar animation */
+        /* end nav bar */
+        /* location Option */
+            
+        /* End location Option */
+        /* end nav */
+        /* End header */

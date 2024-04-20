@@ -1,0 +1,119 @@
+div.Digi-club{
+    width: 78%;
+    height: 88px;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 26px;
+    padding: 12px 16px 12px 16px;
+    background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%), radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+    position: relative;
+}
+div.Digi-club>div{
+    display: inline-block;
+    vertical-align: middle;
+}
+/* logo */
+    div.Digi-club>div.digi-club-logo{
+        width: 119px;
+        height: 33px;
+        margin-right: 24px;
+        /* margin-bottom: 50%; */
+        margin-bottom: 15.5px;
+        margin-top: 15.5px;
+    }
+/* End logo */
+/* challenge */
+div.Digi-club>div:nth-of-type(2){
+    width: 956px;
+    height: 64px;
+    position: absolute;
+    left: 0;
+}
+div.Digi-club>div:nth-of-type(2)>div{
+    height: 100%;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+}
+    /* your points */
+        div.Digi-club>div:nth-of-type(2)>div:nth-of-type(1){
+            font-family:  IranYekanbold;
+            font-size: 12px;
+            font-weight: 700;
+            background-color: transparent;
+            line-height: 64px;
+            color: whitesmoke;
+            margin: 0px 18px;
+        }
+        div.Digi-club>div:nth-of-type(2)>div:nth-of-type(1)>span:first-of-type{
+            font-size: 11px;
+            font-weight: 400;
+        }
+        div.Digi-club>div:nth-of-type(2)>div:nth-of-type(1)>span:nth-of-type(2){
+            font-family:  IranYekanExtrabold;
+            font-size: 21px;
+            font-weight: 800;
+        }
+        div.Digi-club>div:nth-of-type(2)>div:nth-of-type(1)>svg{
+            margin-right: -2px;
+            vertical-align: text-bottom;
+        }
+    /* End your points */
+    /* challenges part */
+        div.Digi-club>div:nth-of-type(2)>div:nth-of-type(2){
+            width: 274px;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+        div.Digi-club>div:nth-of-type(2)>div:nth-of-type(3){
+            width: 275px;
+        }
+        div.Digi-club>div:nth-of-type(2)>div:nth-of-type(4){
+            width: 257.3px;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+        }
+        div.Digi-club>div:nth-of-type(2)>div.challenges{
+            border: 2px solid white;
+        }
+        div.Digi-club>div:nth-of-type(2)>div.challenges>div{
+            display: inline-block;
+            vertical-align: top;
+        }
+        div.Digi-club>div:nth-of-type(2)>div.challenges>div:first-of-type{
+            margin-top: 22px;
+            margin-right: 14px;
+
+        }
+        div.Digi-club>div:nth-of-type(2)>div.challenges>div:first-of-type>div{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+        }
+        div.Digi-club>div:nth-of-type(2)>div.challenges>div:first-of-type>span{
+            display: inline-block;
+            font-family:  IranYekanbold;
+            font-size: 12px;
+            font-weight: 700;
+            margin-right: 2px;
+            vertical-align: top;
+            margin-top: -1px;
+        }
+        div.Digi-club>div:nth-of-type(2)>div.challenges>div:first-of-type>div>img{
+            object-fit: contain;
+            width: 16px;
+            height: 18px;
+        }
+        div.Digi-club>div:nth-of-type(2)>div.challenges>div:last-of-type{
+            width: 168px;
+            height: 100%;
+            margin-left: -2px;
+        }
+        div.Digi-club>div:nth-of-type(2)>div.challenges>div:last-of-type>img{
+            object-fit: cover;
+            width: 168px;
+            height: 100%;
+
+        }
+    /* End challenges part */
+/* End challenge */

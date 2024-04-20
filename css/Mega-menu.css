@@ -1,0 +1,298 @@
+/* mega menu */
+    div.nav>nav>section.mega-menu{
+        position: fixed;
+        width: 110%;
+        height: 100vh;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.4);
+        right: -10px;
+        display: none;
+        pointer-events: none;
+    }
+    div.nav>nav>section.mega-menu:hover{
+        display: block;
+        pointer-events: auto;
+
+    }
+    div.nav>nav>section.mega-menu>div{
+        width: fit-content;
+        height: 774.56px;
+        background-color: rgb(255, 255, 255);
+        z-index: 10;
+        margin-right: 44px;
+        position: relative;
+    }
+    div.nav>nav>div:nth-of-type(1):hover + section.mega-menu{
+        display: block;
+        pointer-events: auto;
+    }
+    div.nav>nav>section.mega-menu>div>div{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options{
+        width: 200px;
+        height: inherit;
+        border-left: 1px solid rgb(245, 245, 245);
+        background-color: rgb(245, 245, 245);
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options>a.mega-menu-list-option{
+        width: 199.2px;
+        height: 51.36px;
+        padding: 12px 8px 12px 8px;
+        border-top: 1px solid rgba(0, 0, 0, 0);
+        border-bottom: 1px solid rgba(0, 0, 0, 0);
+        display: block;
+        line-height: 26.021px;       
+        color: rgb(63, 64, 100);
+        font-family: IranYekanbold;
+        font-size: 12px;
+        font-weight: 700;
+        text-decoration: none;
+        position: relative;
+
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options>a.mega-menu-list-option:hover{
+        color: rgb(63, 64, 100);
+        background-color: rgb(255, 255, 255);
+        color: rgb(239, 64, 86);
+
+    }
+    
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options>a.mega-menu-list-option:hover>img{
+        display: none;
+
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options>a.mega-menu-list-option:hover>img.After-hover{
+        display: inline-block;
+
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options>a.mega-menu-list-option:hover>svg{
+        fill: rgb(239, 64, 86);
+
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options>a.mega-menu-list-option>svg{
+        margin-top: 4.0105px;
+        margin-left: 4px;
+        fill: rgb(63, 64, 100);
+
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options>a.mega-menu-list-option>img{
+        width: 18px;
+        height: 18px;
+        object-fit: contain;
+        margin-left: 4px;
+        vertical-align: middle;
+
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options>a.mega-menu-list-option>img.After-hover{
+        display: none;
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options>a.mega-menu-list-option>p{
+        display: inline-block;
+        vertical-align: top;
+        
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options{
+        width: 933.6px;
+        height: 774.56px;
+        position: absolute;
+        top: 0;
+        right: 200px;
+        background-color: rgb(255, 255, 255);
+        display: none;
+
+        
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options-three-rows{
+        width: 713.6px;
+        height: 774.56px;
+        position: absolute;
+        top: 0;
+        right: 200px;
+        background-color: rgb(255, 255, 255);
+        display: none;
+
+        
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options-three-rows-big{
+        width: 761.6px;
+        height: 774.56px;
+        position: absolute;
+        top: 0;
+        right: 200px;
+        background-color: rgb(255, 255, 255);
+        display: none;
+
+        
+    }
+    
+    
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options:hover{
+        display: block;
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options>a.mega-menu-list-option:hover + div.mega-menu-options{
+        display: block;
+
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options{
+        width: 933.6px;
+        height: 728.04px;
+        padding: 20px 20px 0px 20px;
+        overflow-y: scroll;
+        direction: ltr;
+
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options-three-rows{
+        width: auto;
+        height: 728.04px;
+        padding: 20px 20px 0px 0px;
+        overflow-y: scroll;
+        direction: ltr;
+
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options div.see-more{
+        height: 26px;
+        width: 100%;
+        margin-bottom: 20px;
+        font-family:  IranYekanbold;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 26px;
+        direction: rtl;
+        
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options div.see-more>span{
+        display: inline-block;
+        color: rgb(0, 142, 178);
+        cursor: pointer;
+        
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options div.see-more>span:last-of-type{
+        font-size: 10.5px;
+        font-weight: 700;
+        margin-right: 3px;
+        
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options>div.detailed-options{
+        height: 660px;
+        width: 100%;
+        direction: rtl;
+        
+        
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options>div.detailed-options-three-rows{
+        height: 660px;
+        width: auto;
+        direction: rtl;
+        
+        
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options>div.detailed-options>div.row{
+        width: 220px;
+        height: 662px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: -4px;
+        
+        
+    }
+    
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options-three-rows-big>div.mega-menu-detailed-options>div.detailed-options>div.row-2{
+        width: 260px;
+        
+        
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options-three-rows-big>div.mega-menu-detailed-options>div.detailed-options>div.row-3-overflow{
+        width: 230px;
+        
+        
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options>div.detailed-options>div.row-1{
+        margin-right: 0px;
+        
+        
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options>div.detailed-options>div.row>h2{
+        display: block;
+        width: 100%;
+        padding: 4px 0px 4px 0px;
+        margin-bottom: 8px;
+        height: 38.1px;
+        
+        
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options>div.detailed-options>div.row>h2>a{
+        width: 100%;
+        display: block;
+        font-family:  IranYekanbold;
+        font-size: 14px;
+        font-weight: 700;  
+        text-decoration: none;  
+        line-height: 30.1px;
+        margin-bottom: 6.65px;
+        color: rgb(12, 12, 12);
+        
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options>div.detailed-options>div.row>h2>a>span{
+        display: inline-block;
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options>div.detailed-options>div.row>h2>a>span:last-of-type{
+        font-size: 10.5px;
+        font-weight: 700;
+        
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options>div.detailed-options>div.row>h2>a::before{
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        width: 2px;
+        height: 14px;
+        background-color: red;
+        margin-left: 8px;
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options>div.detailed-options>div.row-2>h2>a::before{
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        width: 2px;
+        height: 14px;
+        background-color: red;
+        margin-left: 4px;
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options>div.detailed-options>div.row-3>h2>a::before{
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        width: 2px;
+        height: 14px;
+        background-color: red;
+        margin-left: 4px;
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options>div.detailed-options>div.row-4>h2>a::before{
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        width: 2.6px;
+        height: 14px;
+        background-color: red;
+        margin-left: 4px;
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options>div.detailed-options>div.row>a{
+        display: block;
+        width: 100%;
+        padding: 4px 0px 4px 0px;
+        height: 34.04px;
+        color: rgb(129, 133, 139);
+        line-height: 26.04px;
+        font-family: IranYekanRegular;
+        font-size: 12px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    div.nav>nav>section.mega-menu>div>div.mega-menu-list-options div.mega-menu-options>div.mega-menu-detailed-options>div.detailed-options>div.row>a:last-of-type{
+        padding: 4px 0px 20px 0px;
+        height: 50.04px;
+    }
+    
+    /* end mega menu */

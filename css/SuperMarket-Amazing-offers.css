@@ -1,0 +1,133 @@
+/* offers part */
+    div.SuperMarket-Amazing-offers{
+        width: 78%;
+        height: 110px;
+        background-color: rgb(237, 239, 237);
+        margin-top: 20px;
+        border-radius: 16px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 16px 40px 12px 40px;
+        position: relative;
+    }
+    div.SuperMarket-Amazing-offers>div.Amazing-title{
+        display: inline-block;
+        width: 468px;
+        height: 62px;
+        margin-top: 8px;
+        margin-bottom: 12px;
+        /* background-color: aquamarine; */
+        vertical-align: middle;
+    }
+    div.SuperMarket-Amazing-offers>div.Amazing-title>div{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    div.SuperMarket-Amazing-offers>div.Amazing-title>div:nth-of-type(1)>img{
+        height: 62px;
+        width: 66px;
+        object-fit: contain;
+    }
+    div.SuperMarket-Amazing-offers>div.Amazing-title>div:nth-of-type(2){
+        margin-right: 10px;
+    }
+    div.SuperMarket-Amazing-offers>div.Amazing-title>div:nth-of-type(3){
+        margin-right: 10px;
+        width: 112px;
+        height: 28px;
+        background-color:  rgb(57, 174, 0);
+        border-radius: 999px;
+        padding: 0px 12px 0px 12px;
+        line-height: 28px;
+        font-family: IranYekanbold;
+        font-size: 14px;
+        font-weight: 700;
+        color: whitesmoke;
+    }
+/* End offers part */
+/* products part */
+    div.SuperMarket-Amazing-offers>div.Amazing-products{
+        width: 650px;
+        height: 74px;
+        /* background-color: cadetblue; */
+        display: inline-block;
+        vertical-align: middle;
+        position: absolute;
+        left: 40px;
+        margin-top: 2px;
+        margin-bottom: 6px;
+    }
+    div.SuperMarket-Amazing-offers>div.Amazing-products>div.products{
+        display: inline-block;
+        width: auto;
+        height: 74px;
+        /* background-color: rgb(135, 61, 5); */
+        vertical-align: middle;
+
+    }
+    div.SuperMarket-Amazing-offers>div.Amazing-products>div.products>a{
+        display: inline-block;
+        width: 72px;
+        height: inherit;
+        background-color: rgb(255, 255, 255);
+        padding: 8px;
+        margin-bottom: 16px;
+        margin-left: 8px;
+        border-radius: 50%;
+        vertical-align: middle;
+        text-decoration: none;
+
+    }
+    div.SuperMarket-Amazing-offers>div.Amazing-products>div.products>a>img{
+        width: 58px;
+        height: 58px;
+        object-fit: contain;
+        border-radius: 50%;
+    }
+    div.SuperMarket-Amazing-offers>div.Amazing-products>div.products>a>div{
+        width: 34px;
+        height: 20px;
+        background-color: rgb(211, 47, 47);
+        border-radius: 16px;
+        color: rgb(255, 255, 255);
+        margin-top: -12px;
+        margin-right: -8px;
+        position: relative;
+        font-family: IranYekanbold;
+        text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+        text-decoration: none;
+    }
+/* End products part */
+/* More than part */
+    div.SuperMarket-Amazing-offers>div.Amazing-products>div.more-than{
+        width: 144.14px;
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        padding: 12px 20px 12px 20px;
+        border-radius: 9999px;
+        line-height: 26px;
+    }
+    div.SuperMarket-Amazing-offers>div.Amazing-products>div.more-than>span{
+        display: inline-block;
+        font-family: IranYekanbold;
+        font-size: 12px;
+        font-weight: 700;
+        color: rgb(57, 174, 0);
+        vertical-align: middle;
+    }
+    div.SuperMarket-Amazing-offers>div.Amazing-products>div.more-than>div{
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 7px;
+        color: rgb(57, 174, 0);
+
+    }
+/* End More than part */

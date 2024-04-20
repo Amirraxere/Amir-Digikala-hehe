@@ -1,0 +1,28 @@
+div.under-Sp-Amazing-offers{
+    width: 78%;
+    height: 242px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: indigo; */
+    margin-top: 18px;
+    
+}
+div.under-Sp-Amazing-offers>a{
+    display: inline-block;
+    width: 322px;
+    height: inherit;
+    border-radius: 16px;
+    background-color: azure;
+    vertical-align: middle;
+    margin-left: 7.4px;
+}
+div.under-Sp-Amazing-offers>a:last-of-type{
+    margin-left: 0;
+
+}
+div.under-Sp-Amazing-offers>a>img{
+    width: 322px;
+    height: 242px;
+    object-fit: cover;
+    border-radius: 16px;
+}

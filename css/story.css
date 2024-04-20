@@ -1,0 +1,98 @@
+div.story-digi{
+    width: 78%;
+    height: 140px;
+    margin: 0 auto;
+    margin-top: 16px;
+    /* background-color: blueviolet; */
+}
+div.story-digi>div.slider-profiles>div.mySwiper{
+    width: 100%;
+    height: inherit;
+
+}
+div.story-digi>div.slider-profiles>div.mySwiper>div.swiper-wrapper{
+    width: 100%;
+    height: inherit;    
+}
+div.story-digi>div.slider-profiles>div.mySwiper>div.swiper-wrapper>div.swiper-slide{
+    width: 84px !important;
+    height: 140px !important;
+    margin-right: 8px;
+    /* background-color: blueviolet; */
+    cursor: pointer;
+    user-select: none;
+}
+div.story-digi>div.slider-profiles>div.mySwiper>div.swiper-wrapper>div.swiper-slide>div.img-box>img{
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid rgba(224,61,150,1);
+    outline-offset: 2px;
+}
+div.story-digi>div.slider-profiles>div.mySwiper>div.swiper-wrapper>div.swiper-slide>div.img-box{
+    margin-top: 5px;
+}
+div.story-digi>div.slider-profiles>div.mySwiper>div.swiper-wrapper>div.swiper-slide>div.text-box{
+    width: 84px;
+    height: 48px;
+    font-family: IranYekanRegular;
+    font-size: 11px;
+    font-weight: 300;
+    margin-top: 8px;
+}
+div.story-digi>div.slider-profiles>div.mySwiper>div.swiper-wrapper>div.swiper-slide>div.story-time{
+    width: 39px;
+    height: 28px;
+    background-color: rgb(253, 236, 245);
+    line-height: 28px;
+    font-family: IranYekanRegular;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(224, 62, 151);
+    margin: 0 auto;
+    margin-top: -10px;
+    position: relative;
+}
+div.TO-MUCH_TEXT{
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+}
+div.story-digi>div.slider-profiles>div.mySwiper>div.swiper-button-next::after{
+    display: inline-block;
+    width: 80px !important;
+    height: 40px !important;
+    text-align: center; 
+    border-radius: 50%; 
+    line-height: 40px;
+    color: rgb(66, 71, 80);
+    font-size: 11px;
+    font-weight: 700;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid rgb(224, 224, 226);
+}
+div.story-digi>div.slider-profiles>div.mySwiper>div.swiper-button-next{
+    width: 40px !important;
+    height: 40px !important;
+}
+div.story-digi>div.slider-profiles>div.mySwiper>div.swiper-button-prev::after{
+    display: inline-block;
+    width: 80px !important;
+    height: 40px !important;
+    text-align: center; 
+    border-radius: 50%; 
+    line-height: 40px;
+    color: rgb(66, 71, 80);
+    font-size: 11px;
+    font-weight: 700;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid rgb(224, 224, 226);
+}
+div.story-digi>div.slider-profiles>div.mySwiper>div.swiper-button-prev{
+    width: 40px !important;
+    height: 40px !important;
+}
